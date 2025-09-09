@@ -1,5 +1,5 @@
 {
-    "name": "shanmuga/laravel-entrust",
+    "name": "vigneshpalanivel/laravel-entrust",
     "description": "This package provides a flexible solution to add ACL to Laravel",
     "keywords": [
         "acl",
@@ -14,8 +14,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Shanmugarajan",
-            "email": "shanmugarajan.33@gmail.com"
+            "name": "sysadgit",
+            "email": "sysad@trioangle.com"
         }
     ],
     "minimum-stability": "dev",
@@ -28,16 +28,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Shanmuga\\LaravelEntrust\\": "src/"
+            "Vigneshpalanivel\\LaravelEntrust\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Shanmuga\\LaravelEntrust\\LaravelEntrustServiceProvider"
+                "Vigneshpalanivel\\LaravelEntrust\\LaravelEntrustServiceProvider"
             ],
             "aliases": {
-                "LaravelEntrust": "Shanmuga\\LaravelEntrust\\Facades\\LaravelEntrustFacade"
+                "LaravelEntrust": "Vigneshpalanivel\\LaravelEntrust\\Facades\\LaravelEntrustFacade"
             }
         }
     }
